@@ -1,14 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "Swagger Auto-Fill",
-  "version": "1.0",
+  "name": "Swecho: Swagger Auto-Fill",
+  "version": "1.5",
   "description": "Automatically populate matching fields in Swagger",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
   "action": {
     "default_popup": "popup.html",
+    "default_title": "Toggle Swecho",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",

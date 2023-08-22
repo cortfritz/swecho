@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
-  <title>Swagger Auto-Fill</title>
-  <style>
-    body {
-      width: 200px;
-      font-family: Arial, sans-serif;
-    }
-  </style>
+  <title>Swecho Control</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 
 <body>
-  <h3>Swagger Auto-Fill</h3>
-  <p>Click the extension icon to auto-fill matching fields in Swagger.</p>
-  <p>This extension is a tribute to Mike Sebaugh who is a dang legend.</p>
+  <h3>Swecho Extension</h3>
+  <p id="status"></p>
+  <label>
+    <input type="checkbox" id="toggleExtension"> Enable Extension
+  </label>
+  <br>
+  <button id="copyAction" class="copy-btn">Copy Now</button>
+  <br/><p>This extension is a present to Mike Sebaugh who is a dang legend.</p>
+
+  <script src="popup.js"></script>
 </body>
 
 </html>
