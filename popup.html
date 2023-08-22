@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 
 <head>
-  <title>Swecho Control</title>
-  <link rel="stylesheet" type="text/css" href="popup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swecho Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 250px;
+    }
+  </style>
 </head>
 
 <body>
-  <h3>Swecho Extension</h3>
-  <p id="status"></p>
-  <label>
-    <input type="checkbox" id="toggleExtension"> Enable Extension
-  </label>
-  <br>
-  <button id="copyAction" class="copy-btn">Copy Now</button>
-  <br/><p>This extension is a present to Mike Sebaugh who is a dang legend.</p>
-
+  <h3>Swecho Settings</h3>
+  <p>Press <strong>Ctrl + Shift + [Your Key]</strong> to copy from the first matching input with content to the
+    currently focused input.</p>
+  <label for="hotkey">Your Key:</label>
+  <input type="text" id="hotkey" maxlength="1" value="C">
+  <button id="save">Save</button>
+  <p> Hey Mike you are awesome! </p>
   <script src="popup.js"></script>
 </body>
 
