@@ -1,6 +1,8 @@
 # Swecho - Swagger Input Copy Chrome Extension
 
-Swecho (Swagger + Echo) is a Central American bat, and a firend, and also a Chrome extension designed to enhance your experience with Swagger pages. With Swecho, you can easily synchronize input values across matching fields on Swagger pages, ensuring consistency and saving time.
+Swecho (Swagger, echo) is a bat, a friend, and a Chrome extension designed to enhance your experience with pasting repeated information into the input fields on Swagger pages.
+
+With Swecho, you can easily synchronize input values across matching fields on Swagger pages, ensuring consistency and saving time.
 
 ![Swecho Mascot](images/swecho.png)
 _i copy your key!_
