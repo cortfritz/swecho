@@ -3,7 +3,7 @@
 Swecho (Swagger + Echo) is a Central American bat, and a firend, and also a Chrome extension designed to enhance your experience with Swagger pages. With Swecho, you can easily synchronize input values across matching fields on Swagger pages, ensuring consistency and saving time.
 
 ![Swecho Mascot](images/swecho.png)
-_Caption: i copy your key!_
+_i copy your key!_
 
 ## Installation
 
